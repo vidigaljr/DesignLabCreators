@@ -68,7 +68,10 @@ export class ContatoComponent implements OnInit, AfterViewInit {
         this.contato = new ContatoModel();
         Swal.fire('Cadastrado com sucesso')
       },
-        err => { Swal.fire('Não foi possivel cadastrar', err)})
+        err => { Swal.fire(
+          'Não foi possivel cadastrar',
+          'Outra forma de contato é pelo whatsapp: 1199838-7433',
+         err)})
     }
     else
     {
