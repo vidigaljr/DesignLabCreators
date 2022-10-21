@@ -16,6 +16,9 @@ html, body { height: 100%;}
 body { 
   background: #111;
 }
+body::-webkit-scrollbar  { 
+ width: 100%;
+}
 section{
   position: relative;
   padding: 15px;
