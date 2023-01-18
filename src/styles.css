@@ -13,10 +13,10 @@ html, body { height: 100%;}
   box-sizing:border-box;
   font-family: 'Poppins', sans-serif ;
 }
-body { 
-  background: #111;
+body {
+  background: linear-gradient(90deg, rgba(244,99,126,1) 8%, rgba(224,116,83,1) 46%, rgba(214,114,129,1) 64%);
 }
-body::-webkit-scrollbar  { 
+body::-webkit-scrollbar  {
  width: 100%;
 }
 section{
@@ -44,7 +44,7 @@ header{
 {
   max-width: 40px;
   cursor: pointer;
-} 
+}
 .banner
 {
   position: relative;
@@ -203,7 +203,7 @@ header{
 .Section
 {
   padding: 100px;
-  background: #111;
+  background: linear-gradient(90deg, rgba(244,99,126,1) 8%, rgba(224,116,83,1) 46%, rgba(214,114,129,1) 64%);
   height: 100vh;
 }
 .Section .containers
@@ -227,32 +227,7 @@ header{
 {
    border-right: none;
 }
-.Section .containers .box .imgBy
-{
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: 0.5s;
-  opacity: 0.5;
-  filter: grayscale(1);
-}
-.Section .containers .box .imgBy:hover
-{
-  opacity: 1;
-  filter: grayscale(0);
-}
-/* .Section .containers .box .imgBy
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
+
 .inicio
 {
   position: relative;
@@ -260,14 +235,14 @@ header{
 }
 
 /*
-=============== 
+===============
 Fonts
 ===============
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -315,7 +290,7 @@ Variables
   --fixed-width: 620px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -400,7 +375,7 @@ main {
 }
 
 /*
-=============== 
+===============
 Nav
 ===============
 */
@@ -438,7 +413,7 @@ nav a:hover {
   color: var(--clr-primary-5);
 }
 /*
-=============== 
+===============
 Container
 ===============
 */

@@ -12,7 +12,7 @@ import { HabilidadeComponent } from './habilidade/habilidade.component';
 import { MenuComponent } from './menu/menu.component';
 import { ContatoComponent } from './contato/contato.component';
 import { PaginaComponent } from './pagina/pagina.component';
-import { EquipeComponent } from './equipe/equipe.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +20,7 @@ import { EquipeComponent } from './equipe/equipe.component';
     MenuComponent,
     ContatoComponent,
     PaginaComponent,
-    EquipeComponent,
+  
   ],
   imports: [
     BrowserModule,
