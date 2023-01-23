@@ -8,7 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HabilidadeComponent } from './habilidade/habilidade.component';
+import { RodapeComponent } from './rodape/rodape.component';
 import { MenuComponent } from './menu/menu.component';
 import { ContatoComponent } from './contato/contato.component';
 import { PaginaComponent } from './pagina/pagina.component';
@@ -16,11 +16,11 @@ import { PaginaComponent } from './pagina/pagina.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HabilidadeComponent,
+    RodapeComponent,
     MenuComponent,
     ContatoComponent,
     PaginaComponent,
-  
+
   ],
   imports: [
     BrowserModule,
