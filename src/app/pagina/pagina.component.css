@@ -1,0 +1,46 @@
+.planos-container {
+
+  padding: 10px 10px;
+  display: inline-block;
+  width: 30%;
+  background-color: bisque;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin: 0  10px 0 20px;
+  border-radius: 10px;
+
+
+
+}
+
+.planos__cartoes {
+  display: flex;
+
+  align-items: center;
+}
+
+.package-service {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .cartao {
+      max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .planos__cartoes {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+  }
+
+  .cartao {
+      max-width: 300px;
+  }
+}
