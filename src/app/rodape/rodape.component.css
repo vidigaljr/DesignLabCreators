@@ -1,0 +1,55 @@
+section{
+  background-color: var(--clr-black);
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.rodape__social {
+  display: flex;
+}
+
+
+.rodape__link {
+  display: inline-block;
+
+
+}
+
+.rodape__navegacao {
+
+    text-align: left;
+    background-color: transparent !important;
+    min-width: 600px;
+    box-shadow: none;
+
+
+}
+
+.rodape__navegacao a{
+
+  color: antiquewhite;
+}
+
+.rodape__logo {
+  border-radius: 50px;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+  .rodape {
+      flex-direction: row;
+
+  }
+
+}
+
+.rodape__logo {
+
+  width: 220px;
+}
