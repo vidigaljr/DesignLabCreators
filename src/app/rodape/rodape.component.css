@@ -1,11 +1,17 @@
+img {
+  margin-right: 40px;
+  border-radius: 15px;
+}
+
 section{
-  background-color: var(--clr-black);
+  background-color: rgba(red, green, blue, alpha);
 }
 
 .rodape {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 
 }
 
@@ -36,7 +42,7 @@ section{
 }
 
 .rodape__logo {
-  border-radius: 50px;
+  border-radius: 100px;
 }
 
 
